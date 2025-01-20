@@ -78,7 +78,7 @@ $(document).ready(function() {
             $("#enviar").attr('disabled', false);
         } else {
             const xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://n8nwebhook.tuchat.com.ar/webhook/89174271-0718-461b-911c-585e2ae1c13e');
+            xhr.open('POST', 'https://n8nwebhook.tuchat.com.ar/webhook/8349e86b-a584-442a-b8fd-93aa9c560894');
 
             xhr.onload = function() {
                 if (xhr.status === 200) {
